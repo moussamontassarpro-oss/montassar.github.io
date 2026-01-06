@@ -15,7 +15,7 @@ title: Accueil
 
 <div id="open-site" class="site-content" markdown="1">
 
-## UN PATIONNÉ.
+## UN PASSIONNÉ.
 "Passionné d'informatique depuis mes 11 ans et développeur Front-End en herbe, je conçois des interfaces avec curiosité et rigueur. Entre deux lignes de code et une balade avec mon chien, je cultive ce qui m'est essentiel : un esprit sain dans un environnement numérique performant".
 
 </div>
