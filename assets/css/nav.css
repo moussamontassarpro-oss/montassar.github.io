@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 25px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace;
+}
+
+.nav-top {
+    list-style: none;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    position: relative;
+}
+
+.nav-top li {
+    display: inline-block;
+    padding: 0 20px;
+    opacity: 0;
+    transform: translateY(-50px);
+}
+
+.nav-top.nav-visible li {
+    animation: slide-up 1s ease-out forwards;
+}
+
+.nav-top a::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    transform: scaleY(0);
+    height: 2px;
+    bottom: 0;
+    right: -10px;
+    background-color: #0087ca;
+    transform-origin: bottom left;
+    transition: transform 0.50s ease-out;
+}
+
+.nav-top a:hover::after {
+    transform: scaleY(1);
+}
+
+.nav-top.nav-visible li:nth-child(1) { animation-delay: 0.1s; }
+.nav-top.nav-visible li:nth-child(2) { animation-delay: 0.3s; }
+.nav-top.nav-visible li:nth-child(3) { animation-delay: 0.5s; }
+.nav-top.nav-visible li:nth-child(4) { animation-delay: 0.7s; }
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,38 @@
+footer {
+    margin-top: auto;
+    background: transparent;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.logo-footer {
+    margin-bottom: 15px;
+}
+
+.logo-footer img {
+    transition: transform 0.3s ease;
+    transform: scale(1);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.logo-footer img:hover {
+    transform: scale(1.5);
+}
+
+.text-footer {
+    margin: 0;
+    padding: 0;
+}
+
+.text-footer p {
+    color: #cccccc;
+    margin: 0;
+    padding: 5px 0 5px 0; 
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+}
