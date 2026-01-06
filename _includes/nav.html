@@ -8,10 +8,10 @@
 <body>
     <nav>
         <ul class="nav-top">
-            <li><a href="#">Acceuil</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Contact</a></li>
+        <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+        <li><a href="{{ '/about' | relative_url }}">À propos</a></li>
+        <li><a href="{{ '/' | relative_url }}">Projets</a></li>
+        <li><a href="{{ '/' | relative_url }}">Contact</a></li>
         </ul>
     </nav>
 </script>
