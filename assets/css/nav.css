@@ -20,8 +20,9 @@ nav {
 
 .nav-top a {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
     font-weight: 600;
+    font-size: 1.5rem;
     position: relative;
 }
 
@@ -39,14 +40,15 @@ nav {
 .nav-top a::after {
     content: '';
     position: absolute;
-    width: 10px;
-    transform: scaleY(0);
-    height: 2px;
+    width: 12px;
+    transform: scaleX(0);
+    height: 30px;
     bottom: 0;
-    right: -10px;
-    background-color: #0087ca;
+    right: 0;
+    opacity: 70%;
+    background-color: #001226;
     transform-origin: bottom left;
-    transition: transform 0.50s ease-out;
+    transition: transform 0.30s ease-out;
 }
 
 .nav-top a:hover::after {

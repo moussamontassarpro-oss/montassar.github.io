@@ -23,6 +23,8 @@ title: Accueil
 
 <div class="btn-container" markdown="1">
 
-[Mon Parcours !]({{ '/about' | relative_url }}){: .btn-about}
+<a href="{{ '/about' | relative_url }}" class="btn-about">
+  Mon Parcours <span class="emoji-large">🎯</span>
+</a>
 
 </div>
