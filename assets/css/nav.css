@@ -40,7 +40,7 @@ nav {
 .nav-top a::after {
     content: '';
     position: absolute;
-    width: 12px;
+    width: 14px;
     transform: scaleX(0);
     height: 30px;
     bottom: 0;

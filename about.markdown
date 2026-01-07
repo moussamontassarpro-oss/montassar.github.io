@@ -4,57 +4,55 @@ title: About
 ---
 
 <div class="about-container" markdown="1">
+<div class="about-who" markdown="1">
 
-## Qui suis-je ?
+## Qui suis-je ? 💬
 
-Développeur web passionné depuis mes 11 ans, je me spécialise aujourd'hui dans le développement Front-End. Mon objectif ? Créer des interfaces web élégantes, performantes et accessibles.
-
----
-
-## Mon Parcours
-
-### 🎓 Formation
-
-**[Nom de votre formation/diplôme]** — *[Année - Année]*  
-[Nom de l'établissement]  
-Description courte de ce que vous avez appris, les projets réalisés...
-
-**[Formation précédente]** — *[Année - Année]*  
-[Établissement]  
-Quelques mots sur cette étape...
+### Moussa Montassar — Développeur Passionné
 
 ---
 
-### 💼 Expérience Professionnelle
+**_Passionné d'informatique depuis mes 11 ans, mon premier ordinateur a été le point de départ d'une curiosité qui ne m'a plus jamais quitté._**  
 
-**[Poste/Titre]** — *[Année - Année]*  
-[Nom de l'entreprise/projet]  
-- Ce que vous avez fait
-- Technologies utilisées
-- Réalisations principales
+**_Après un passage par le secteur du BTP, la vie m'a poussé à me réorienter. Malgré les doutes de certains sur l'absence de diplôme classique, j'ai décidé de faire de ma passion mon métier._**
 
-**[Autre expérience]** — *[Année - Année]*  
-[Entreprise]  
-Brève description...
+**_J'ai intégré la Web@cadémie, une formation intense qui a été un véritable tournant. Elle m'a permis de canaliser ma détermination et d'acquérir les compétences techniques nécessaires pour m'épanouir aujourd'hui dans le développement._**
+
+**_Autodidacte dans l'âme et travailleur acharné, je mets désormais mon énergie au service de projets qui font sens."_**
+</div>
+---
+
+
+
+## Mon Parcours 🪜
+
+### Formation 🎓
+
+**Developpeur Web - RNCP38436** — *[2025 - 2027]*  
+### Web@Cademie  
+Apprentissage intensif du développement web par la pratique, avec la réalisation de projets en HTML, CSS, TailwindCSS, JavaScript, PHP et Jekyll, tous soumis à des délais de rendu rigoureux.
+
+
 
 ---
 
-## Mes Compétences
+
+## Mes Compétences ✅
 
 ### Front-End
-HTML5, CSS3, JavaScript, React, [autres technos]
+HTML5 <i class="fa-brands fa-html5"></i>, CSS3 <i class="fa-brands fa-css3-alt"></i>, JavaScript <i class="fa-brands fa-js"></i> 
 
 ### Outils & Workflow
-Git, VS Code, Figma, [autres outils]
+Git <i class="fa-brands fa-git-alt"></i>, VS Code <i class="fa-solid fa-code"></i>, Figma <i class="fa-brands fa-figma"></i>
 
 ### Soft Skills
-Curiosité, rigueur, esprit d'équipe, autonomie
+Curiosité, rigueur, esprit d'équipe, autonomie.
 
 ---
 
 ## En dehors du code
 
-Quand je ne code pas, vous me trouverez en balade avec mon chien 🐕, à [votre hobby], ou en train de [autre activité].
+Quand je ne code pas, vous me trouverez en balade avec mon chien <i class="fa-solid fa-dog"></i> et entre tout ca j'essaye de chasser sur RDD2 <i class="fa-brands fa-xbox"></i>
 
 ---
 
