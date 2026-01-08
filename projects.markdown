@@ -27,7 +27,7 @@ title: projects
 
 
     <div class="project-item project-left">
-        <a href="https://moussamontassarpro-oss.github.io/web-html-css/" target="_blank"><img src="assets/images/Projet3.gif" alt="Projet 1" class="project-image"></a>
+        <a href="https://moussamontassarpro-oss.github.io/web-html-css/" target="_blank"><img src="assets/images/projet3.gif" alt="Projet 1" class="project-image"></a>
         <div class="project-line"></div>
         <span class="project-name">MTSR-CHICHA HTML / CSS</span>
     </div>
