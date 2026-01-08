@@ -45,8 +45,8 @@ nav {
     height: 30px;
     bottom: 0;
     right: 0;
-    opacity: 70%;
-    background-color: #001226;
+    opacity: 20%;
+    background-color:  #141010;
     transform-origin: bottom left;
     transition: transform 0.30s ease-out;
 }

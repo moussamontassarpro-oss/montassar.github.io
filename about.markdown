@@ -60,8 +60,13 @@ Quand je ne code pas, vous me trouverez en balade avec mon chien <i class="fa-so
 
 ### Envie d'en savoir plus ?
 
-[Voir mes projets]({{ '/projects' | relative_url }}){: .btn-secondary}
-[Me contacter]({{ '/contact' | relative_url }}){: .btn-secondary}
+<a href="{{ '/projects' | relative_url }}" class="btn-secondary">
+  Mes projets
+</a>
+
+<a href="{{ '/contact' | relative_url }}" class="btn-secondary">
+  Me contacter
+</a>
 
 </div>
 
