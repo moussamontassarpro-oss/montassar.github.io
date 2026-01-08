@@ -12,7 +12,9 @@ nav {
     align-items: center;
     justify-content: center;
     font-family: "Roboto Mono", monospace;
+
 }
+
 
 .nav-top {
     list-style: none;
@@ -40,13 +42,12 @@ nav {
 .nav-top a::after {
     content: '';
     position: absolute;
-    width: 14px;
+    width: 15px;
     transform: scaleX(0);
-    height: 30px;
+    height: 3px;
     bottom: 0;
-    right: 0;
-    opacity: 20%;
-    background-color:  #141010;
+    right: -10px;
+    background-color: #2080d9;
     transform-origin: bottom left;
     transition: transform 0.30s ease-out;
 }

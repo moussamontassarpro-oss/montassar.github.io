@@ -55,8 +55,8 @@ main {
 }
 
 .hero-curtain h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
     font-weight: 300;
 }
 
@@ -64,7 +64,7 @@ main {
     display: block;
     margin-bottom: 20px;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .btn-start {
@@ -104,7 +104,7 @@ main {
     transform: translateY(-2px);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
-.contact-about{;
+.contact-about{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,25 +130,15 @@ main {
 }
 
 .site-content h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 40px;
     font-weight: 300;
 }
 
 .site-content p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.8;
     margin-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-    .hero-curtain h1 {
-        font-size: 2rem;
-    }
-    
-    .site-content {
-        padding: 80px 5% 40px 5%;
-    }
 }
 .btn-container {
     margin-top: 50px;
@@ -161,6 +151,8 @@ main {
     padding: 12px 30px;
     border: 2px solid black;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
     color: black;
     font-family: "Roboto Mono", monospace;
     transition: all 0.3s ease;
@@ -191,20 +183,25 @@ main {
 }
 .about-container h3{
     margin-top: 30px;
+    font-size: 2rem;
 }
 .about-container h2{
     margin-top: 30px;
+    font-size: 2.5rem;
 
 }
 .about-container p{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 1.3rem;
 }
 .about-who p{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 1.3rem;
 }
 .about-who h3{
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 .cta-section{
@@ -298,7 +295,7 @@ main {
 
 .projects-timeline {
     position: relative;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     animation: slide-up 1s ease-out forwards;
 }
@@ -306,7 +303,6 @@ main {
 .projects-timeline .project-item:nth-child(2) { animation-delay: 0.3s; }
 .projects-timeline .project-item:nth-child(3) { animation-delay: 0.6s; }
 .projects-timeline .project-item:nth-child(4) { animation-delay: 0.8s; }
-
 
 .projects-line-top {
     border: 2px solid black;
@@ -328,7 +324,6 @@ main {
     opacity: 0;
     transform: translateY(30px);
     animation: slide-up 0.8s ease-out forwards;
-
 }
 
 .project-left {
@@ -348,14 +343,13 @@ main {
     object-fit: cover;
     cursor: pointer;
     transition-duration: 500ms;
-    
 }
-.project-image:hover{
+
+.project-image:hover {
     transform: translate(0, -0.75rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1); 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     transition-property: all; 
     box-shadow: 3px 4px 5px 2px #596e79;
-    
 }
 
 .project-line {
@@ -366,21 +360,74 @@ main {
     margin: 0 10px;
 }
 
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 300px;
+    max-width: 500px;
+}
+
 .project-name {
     font-weight: bold;
-    white-space: nowrap;
     font-size: 1.2rem;
 }
 
-.projects-content{
+.project-year {
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+}
+
+.projects-content {
     max-width: 400px;
     margin: 0 auto;
     padding: 60px 20px;
     line-height: 1.8;
 }
 
-
-.projects-content h2{
+.projects-content h2 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2rem;
+}
+
+.tailwind{
+    background: linear-gradient(to bottom right, #581c87, #7e22ce, #db2777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: spin 10s linear infinite;
+
+}
+
+.css{
+    background: linear-gradient(0.25turn, #44DD8A, #15B7E2); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: spin 10s linear infinite;
+}
+.first{
+    color: rgba(29, 36, 42, 0.9);
+    animation: spin 10s linear infinite;
+
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-curtain h1 {
+        font-size: 2rem;
+    }
+    
+    .site-content {
+        padding: 80px 5% 40px 5%;
+    }
 }
