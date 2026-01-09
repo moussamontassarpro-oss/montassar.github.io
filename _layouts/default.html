@@ -15,10 +15,11 @@
         {% include nav.html %} </header>
 
     <main>
-        {{ content }} </main>
+        {{ content }}
+    </main>
 
-        <footer>
-            {% include footer.html %} </footer>
-            <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    {% include footer.html %}
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>

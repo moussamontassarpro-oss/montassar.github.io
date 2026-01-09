@@ -1,73 +1,103 @@
 ---
 layout: default
-title: About
+title: À propos
 ---
 
-<div class="about-container" markdown="1">
-<div class="about-who" markdown="1">
+<div class="about-container about-container-large" markdown="1">
 
-## Qui suis-je ? 💬
+## Qui suis-je ? <span class="emoji-large">🧐</span>
 
-### Moussa Montassar — Développeur Passionné
+<div class="projects-grid projects-grid-espacement">
+    
+    <!-- CARTE PROFIL -->
+    <div class="project-card">
+        <div class="card-header card-header-bordure-sombre">
+            <h3 class="card-title">Moussa Montassar</h3>
+            <span class="card-year">Dev Front-End</span>
+        </div>
+        <div class="card-content">
+            <p class="about-intro-texte">
+                <strong>Passionné depuis mes 11 ans.</strong><br><br>
+                Mon premier ordinateur a été le déclic. Après un détour par le BTP, j'ai tout lâché pour revenir à mon premier amour : le code.
+                Aujourd'hui, je transforme ma curiosité en pixels et en interactions.
+            </p>
+            <div class="icon-container">
+                <i class="fa-solid fa-code about-icon"></i>
+                <i class="fa-solid fa-terminal about-icon"></i>
+            </div>
+        </div>
+    </div>
 
----
+    <!-- CARTE COMPÉTENCES -->
+    <div class="project-card">
+        <div class="card-header card-header-bordure-sombre">
+            <h3 class="card-title">Ma Boîte à Outils 🛠️</h3>
+        </div>
+        <div class="card-content">
+            
+            <h4 class="stack-titre">Front-End</h4>
+            <div class="tech-stack">
+                <span class="tech-badge tech-badge-clair"><i class="fa-brands fa-html5 html-icon"></i> HTML5</span>
+                <span class="tech-badge tech-badge-clair"><i class="fa-brands fa-css3-alt css-icon"></i> CSS3</span>
+                <span class="tech-badge tech-badge-clair"><i class="fa-brands fa-js js-icon"></i> JavaScript</span>
+                <span class="tech-badge tech-badge-clair">Tailwind</span>
+            </div>
 
-**_Passionné d'informatique depuis mes 11 ans, mon premier ordinateur a été le point de départ d'une curiosité qui ne m'a plus jamais quitté._**  
+            <h4 class="stack-titre">Workflow</h4>
+            <div class="tech-stack">
+                <span class="tech-badge tech-badge-clair"><i class="fa-brands fa-git-alt git-icon"></i> Git</span>
+                <span class="tech-badge tech-badge-clair"><i class="fa-brands fa-figma figma-icon"></i> Figma</span>
+                <span class="tech-badge tech-badge-clair">VS Code</span>
+            </div>
 
-**_Après un passage par le secteur du BTP, la vie m'a poussé à me réorienter. Malgré les doutes de certains sur l'absence de diplôme classique, j'ai décidé de faire de ma passion mon métier._**
+            <h4 class="stack-titre">Soft Skills</h4>
+            <div class="tech-stack">
+                <span class="tech-badge tech-badge-pointille">Curiosité</span>
+                <span class="tech-badge tech-badge-pointille">Rigueur</span>
+                <span class="tech-badge tech-badge-pointille">Autonomie</span>
+            </div>
+        </div>
+    </div>
 
-**_J'ai intégré la Web@cadémie, une formation intense qui a été un véritable tournant. Elle m'a permis de canaliser ma détermination et d'acquérir les compétences techniques nécessaires pour m'épanouir aujourd'hui dans le développement._**
-
-**_Autodidacte dans l'âme et travailleur acharné, je mets désormais mon énergie au service de projets qui font sens."_**
 </div>
----
 
 
+<div class="project-card project-card-large">
+    <div class="card-header">
+        <h3 class="card-title">Mon Parcours 🪜</h3>
+    </div>
+    <div class="card-content">
+        <div class="timeline-item">
+            <div class="timeline-date">2025 - 2027</div>
+            <div>
+                <strong>Web@cadémie (Epitech)</strong><br>
+                <em>Titre RNCP Développeur Web</em><br>
+                Apprentissage intensif par la pratique ("Piscine", projets, rushs). HTML, CSS, JS, PHP, Jekyll... 
+                Apprendre à apprendre est la compétence n°1 ici.
+            </div>
+        </div>
+        <hr class="timeline-separateur">
+        <div class="timeline-item-base">
+            <div class="timeline-date">Avant</div>
+            <div>
+                <strong>Le Monde du BTP</strong><br>
+                Une expérience qui m'a appris la valeur du travail, la rigueur et la persévérance. Des qualités que j'applique aujourd'hui dans mon code.
+            </div>
+        </div>
+    </div>
+</div>
 
-## Mon Parcours 🪜
 
-### Formation 🎓
-
-**Developpeur Web - RNCP38436** — *[2025 - 2027]*  
-### Web@Cademie  
-Apprentissage intensif du développement web par la pratique, avec la réalisation de projets en HTML, CSS, TailwindCSS, JavaScript, PHP et Jekyll, tous soumis à des délais de rendu rigoureux.
-
-
-
----
-
-
-## Mes Compétences ✅
-
-### Front-End
-HTML5 <i class="fa-brands fa-html5"></i>, CSS3 <i class="fa-brands fa-css3-alt"></i>, JavaScript <i class="fa-brands fa-js"></i> 
-
-### Outils & Workflow
-Git <i class="fa-brands fa-git-alt"></i>, VS Code <i class="fa-solid fa-code"></i>, Figma <i class="fa-brands fa-figma"></i>
-
-### Soft Skills
-Curiosité, rigueur, esprit d'équipe, autonomie.
-
----
-
-## En dehors du code
-
-Quand je ne code pas, vous me trouverez en balade avec mon chien <i class="fa-solid fa-dog"></i> et entre tout ca j'essaye de chasser sur RDD2 <i class="fa-brands fa-xbox"></i>
-
----
+<div class="section-centree">
+    <h3>En dehors du code ?</h3>
+    <p class="hobby-texte">
+        Je promène mon chien <i class="fa-solid fa-dog fa-bounce"></i> et je chasse (virtuellement) sur RDR2 <i class="fa-brands fa-xbox"></i>.
+    </p>
+</div>
 
 <div class="cta-section" markdown="1">
-
-### Envie d'en savoir plus ?
-
-<a href="{{ '/projects' | relative_url }}" class="btn-secondary">
-  Mes projets
-</a>
-
-<a href="{{ '/contact' | relative_url }}" class="btn-secondary">
-  Me contacter
-</a>
-
+<a href="{{ '/projects' | relative_url }}" class="btn-secondary">Voir mes projets </a>
+<a href="{{ '/contact' | relative_url }}" class="btn-secondary">Me contacter</a>
 </div>
 
 </div>

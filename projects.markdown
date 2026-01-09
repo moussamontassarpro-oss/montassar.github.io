@@ -1,54 +1,90 @@
 ---
 layout: default
-title: projects
+title: Mes Projets
 ---
 
+<div class="projects-container" markdown="1">
 
-<div class="projects-content" markdown="1">
+## Mes Projets <img class="folder" src="assets/images/folder2.gif" alt="Dossier" title="Portfolio">
 
-## Mes projets 📂
+<div class="projects-grid">
 
-<div class="projects-timeline">
-    <div class="projects-line-top"></div>
     
-    <div class="project-item project-left">
-        <a href="https://moussamontassarpro-oss.github.io/Web-Html-CSS-Tailwind-CSS/" target="_blank"><img src="assets/images/projet2gif.gif" alt="Projet 1" class="project-image"></a>
-        <div class="project-line"></div>
-        <div class="project-info">
-            <span class="project-name"><i class="fa-solid fa-square tailwind"></i> KLIVO - FULL TAILWIND</span>
-            <span class="project-year">2025</span>
-            <p class="project-description">Ce projet d'un mois en Tailwind CSS et JS m'a permis de consolider mes acquis. J'en ai aujourd'hui une excellente maîtrise et je suis capable de l'utiliser avec fluidité sur des projets complexes</p>
+    <div class="project-card">
+        <div class="project-thumb-container">
+            <img src="assets/images/projet2gif.gif" alt="Klivo Tailwind" class="project-thumb">
         </div>
-    </div>
-    
-    <div class="project-item project-right">
-        <div class="project-info">
-            <span class="project-name"><i class="fa-solid fa-square css"></i> KLIVO HTML / CSS</span>
-            <span class="project-year">2025</span>
-            <p class="project-description">Ce projet de deux semaines a été l'occasion d'approfondir ma maîtrise du HTML5 et du CSS3. J'ai pu perfectionner mes méthodes d'intégration pour garantir un code propre, structuré et fidèle aux maquettes originales</p>
+        <div class="card-content">
+            <div class="card-header">
+                <h3 class="card-title">Klivo Tailwind</h3>
+                <span class="card-year">2025</span>
+            </div>
+            <div class="tech-stack">
+                <span class="tech-badge">Tailwind CSS</span>
+                <span class="tech-badge">JS</span>
+            </div>
+            <p class="card-desc">
+                Projet intensif d'un mois pour maîtriser l'écosystème Tailwind. Conception d'une interface complexe et responsive sans une seule ligne de CSS standard.
+            </p>
+            <a href="https://moussamontassarpro-oss.github.io/Web-Html-CSS-Tailwind-CSS/" target="_blank" class="btn-card">
+                Voir le projet <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
         </div>
-        <div class="project-line"></div>
-        <a href="https://moussamontassarpro-oss.github.io/web-html-css/" target="_blank"><img src="assets/images/Projet1.gif" alt="Projet 1" class="project-image"></a>
     </div>
 
-    <div class="project-item project-left">
-        <a href="https://moussamontassarpro-oss.github.io/mtsr-chcicha/index.html" target="_blank"><img src="assets/images/projet3.gif" alt="Projet 1" class="project-image"></a>
-        <div class="project-line"></div>
-        <div class="project-info">
-            <span class="project-name"><i class="fa-solid fa-square first"></i> MTSR-CHICHA HTML / CSS</span>
-            <span class="project-year">2018</span>
-            <p class="project-description">C'est ici que tout a commencé en 2018. Mon tout premier site réalisé en HTML/CSS. Bien que le design témoigne de mes débuts, je le conserve précieusement comme le symbole de ma passion et le point de départ de ma progression technique.</p>
+    
+    <div class="project-card">
+        <div class="project-thumb-container">
+            <img src="assets/images/Projet1.gif" alt="Klivo HTML CSS" class="project-thumb">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3 class="card-title">Klivo Standard</h3>
+                <span class="card-year">2025</span>
+            </div>
+            <div class="tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+            </div>
+            <p class="card-desc">
+                Retour aux fondamentaux. Intégration pixel-perfect d'une maquette complexe pour perfectionner la structure sémantique et le CSS pur.
+            </p>
+            <a href="https://moussamontassarpro-oss.github.io/web-html-css/" target="_blank" class="btn-card">
+                Voir le projet <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
         </div>
     </div>
+
+    
+    <div class="project-card">
+        <div class="project-thumb-container">
+            <img src="assets/images/projet3.gif" alt="MTSR Chicha" class="project-thumb">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3 class="card-title">MTSR Chicha</h3>
+                <span class="card-year">2018</span>
+            </div>
+            <div class="tech-stack">
+                <span class="tech-badge">First Code</span>
+                <span class="tech-badge">Nostalgie</span>
+            </div>
+            <p class="card-desc">
+                Là où tout a commencé. Mon premier site web réalisé en 2018. Un design "d'époque" que je garde précieusement comme témoin de mon évolution.
+            </p>
+            <a href="https://moussamontassarpro-oss.github.io/mtsr-chcicha/index.html" target="_blank" class="btn-card">
+                Voir le projet <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+    </div>
+
 </div>
 
+<div class="contact-about contact-about-marge" markdown="1">
+### Vous aimez ce que vous voyez ?
 
-<div class="contact-about" markdown="1">
-### Mon travail vous plait ? 
-
-<a href="{{ '/about' | relative_url }}" class="btn-about-contact">Contactez-moi !</a>
+<a href="{{ '/contact' | relative_url }}" class="btn-about-contact">Travaillons ensemble !</a>
 
 </div>
-
 
 </div>

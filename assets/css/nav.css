@@ -47,7 +47,7 @@ nav {
     height: 3px;
     bottom: 0;
     right: -10px;
-    background-color: #2080d9;
+    background-color: black;
     transform-origin: bottom left;
     transition: transform 0.30s ease-out;
 }
